@@ -1,0 +1,26 @@
+.wrapper {
+display: flex;
+position: relative; 
+}
+    
+img {
+border-radius:50%;
+width: 65px;
+height: 65px;
+}
+
+.box1 {
+position: absolute;
+
+
+left: 50%;
+margin-left: 0; 
+}
+    
+h1 {
+color:lightseagreen;
+}
+    
+.box1, .box2 {
+width: 50%; 
+}
