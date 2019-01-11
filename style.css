@@ -1,26 +1,19 @@
 .wrapper {
-display: flex;
-position: relative; 
-}
+  display: flex;
+  max-width: 660px;
+  min-width: 50px;
+ }
     
-img {
-border-radius:50%;
-width: 65px;
-height: 65px;
+.img {
+  border-radius:50%;
+  width: 65px;
+  height: 65px;
 }
 
-.box1 {
-position: absolute;
-
-
-left: 50%;
-margin-left: 0; 
+   
+.name {
+  color:lightseagreen;
+  font-weight: bold;
+  font-size: 18px;
 }
     
-h1 {
-color:lightseagreen;
-}
-    
-.box1, .box2 {
-width: 50%; 
-}
